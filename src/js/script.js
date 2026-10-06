@@ -87,3 +87,9 @@ console.log("*************************************************")
 console.log("Exercício 10")
 console.log("*************************************************")
 // Código
+
+let valorProduto = Number(prompt("Digite o valor do produto: "))
+let valorDesconto = Number(prompt("Digite o valor do desconto: "))
+valorFinal = valorProduto - valorDesconto 
+
+console.log(`O valor final é ${valorFinal}`)
