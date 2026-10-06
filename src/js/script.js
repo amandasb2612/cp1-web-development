@@ -44,7 +44,7 @@ console.log("*************************************************")
 // Código
 
 let soma = 0 
-for(n =1; n <=7; n ++) {
+for(let n =1; n <=7; n ++) {
     let nota = Number(prompt(`Digite a nota ${n}: `))
     soma = soma + nota
 }
@@ -90,6 +90,6 @@ console.log("*************************************************")
 
 let valorProduto = Number(prompt("Digite o valor do produto: "))
 let valorDesconto = Number(prompt("Digite o valor do desconto: "))
-valorFinal = valorProduto - valorDesconto 
+let valorFinal = valorProduto - valorDesconto 
 
 console.log(`O valor final é ${valorFinal}`)
