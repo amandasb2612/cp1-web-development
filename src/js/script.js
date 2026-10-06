@@ -72,6 +72,17 @@ console.log("Exercício 9")
 console.log("*************************************************")
 // Código
 
+let senha = prompt("Digite sua senha atual: ")
+let novaSenha = prompt("Digite sua nova senha: ")
+
+if (senha == novaSenha) {
+    console.log("A senha não pode ser igual a anterior.")
+}
+
+else {
+    console.log("Senha alterada com sucesso!")
+}
+
 console.log("*************************************************")
 console.log("Exercício 10")
 console.log("*************************************************")
