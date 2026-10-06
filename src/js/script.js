@@ -64,6 +64,9 @@ console.log("Exercício 8")
 console.log("*************************************************")
 // Código 
 
+let nomeDev = prompt("Digite o seu nome: ")
+console.log(`Olá dev ${nomeDev}`) 
+
 console.log("*************************************************")
 console.log("Exercício 9")
 console.log("*************************************************")
