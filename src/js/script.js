@@ -37,6 +37,10 @@ console.log("Exercício 3")
 console.log("*************************************************")
 // Código 
 
+for (let num = 1; num <= 10; num++){
+    console.log(`Valor da contagem é ${num}!`)
+}
+
 console.log("*************************************************")
 console.log("Exercício 4")
 console.log("*************************************************")
