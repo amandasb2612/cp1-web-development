@@ -60,6 +60,16 @@ console.log("Exercício 5")
 console.log("*************************************************")
 // Código
 
+let idade = Number(prompt("Digite sua idade:"));
+let cnh = prompt("Possui Carteira Nacional de Habilitação?");
+
+let permissao = idade >= 18 && cnh === "sim"
+    ? "Tem permissão para digirir"
+    : "Não tem permissão para digirir";
+
+console.log(permissao);
+
+
 console.log("*************************************************")
 console.log("Exercício 6")
 console.log("*************************************************")
