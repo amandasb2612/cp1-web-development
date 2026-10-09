@@ -3,10 +3,20 @@ console.log("Exercício 1")
 console.log("*************************************************")
 // Código 
 
+let a = Number(prompt("Digite um número"));
+let b = Number(prompt("Digite outro número"));
+
+console.log("Valores digitados:", a, b);
+
+console.log(a != b);
+console.log(a === b);
+console.log(a >= b);
+
 console.log("*************************************************")
 console.log("Exercício 2")
 console.log("*************************************************")
 // Código 
+
 
 console.log("*************************************************")
 console.log("Exercício 3")
