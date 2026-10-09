@@ -46,6 +46,15 @@ console.log("Exercício 4")
 console.log("*************************************************")
 // Código
 
+let vingadores = ["Thor", "Hulk" , "Capitão América", "Arqueiro", "Viúva Negra"]
+
+console.log(vingadores[0]);
+console.log(vingadores[1]);
+console.log(vingadores[2]);
+console.log(vingadores[3]);
+console.log(vingadores[4]);
+
+
 console.log("*************************************************")
 console.log("Exercício 5")
 console.log("*************************************************")
