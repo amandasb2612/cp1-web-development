@@ -12,11 +12,25 @@ console.log(a != b);
 console.log(a === b);
 console.log(a >= b);
 
+
 console.log("*************************************************")
 console.log("Exercício 2")
 console.log("*************************************************")
 // Código 
 
+let altura = Number(prompt("Informe sua altura em metros:"));
+let peso = Number(prompt("Informe seu peso em kg:"));
+
+let IMC = peso / (altura ** 2);
+
+if (IMC <= 18.5) {
+    console.log("Abaixo do peso")
+
+} else if (IMC < 24.5) {
+    console.log("Peso ideal")
+} else{
+    console.log("Acima do peso")
+}
 
 console.log("*************************************************")
 console.log("Exercício 3")
