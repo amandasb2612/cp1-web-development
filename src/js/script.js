@@ -23,7 +23,7 @@ let peso = Number(prompt("Informe seu peso em kg:"));
 
 let IMC = peso / (altura ** 2);
 
-console.log(`IMC: ${IMC}`)
+console.log(`IMC: ${IMC.toFixed(2)}`)
 if (IMC < 18.5) {
     console.log("Abaixo do peso")
 
