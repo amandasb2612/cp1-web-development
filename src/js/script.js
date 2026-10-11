@@ -8,9 +8,9 @@ let b = Number(prompt("Digite outro número"));
 
 console.log("Valores digitados:", a, b);
 
-console.log(a != b);
-console.log(a === b);
-console.log(a >= b);
+console.log(`${a} != ${b}:`, a != b);
+console.log(`${a} === ${b}:`, a === b);
+console.log(`${a} >= ${b}:`, a >= b);
 
 
 console.log("*************************************************")
@@ -23,6 +23,7 @@ let peso = Number(prompt("Informe seu peso em kg:"));
 
 let IMC = peso / (altura ** 2);
 
+console.log(`IMC: ${IMC}`)
 if (IMC < 18.5) {
     console.log("Abaixo do peso")
 
@@ -38,7 +39,7 @@ console.log("*************************************************")
 // Código 
 
 for (let num = 1; num <= 10; num++){
-    console.log(`Valor da contagem é ${num}!`)
+    console.log(`O valor da contagem é: ${num}!`)
 }
 
 console.log("*************************************************")
@@ -61,7 +62,7 @@ console.log("*************************************************")
 // Código
 
 let idade = Number(prompt("Digite sua idade:"));
-let cnh = prompt("Possui Carteira Nacional de Habilitação?");
+let cnh = prompt("Possui Carteira Nacional de Habilitação? (sim/não): ");
 
 let permissao = idade >= 18 && cnh === "sim"
     ? "Tem permissão para dirigir"
@@ -97,7 +98,7 @@ for(let n =1; n <=7; n ++) {
 }
 
 let media = soma/7
-console.log(`A média do aluno é ${media}` )
+console.log(`A média do aluno é ${media.toFixed(2)}` )
 
 if (media >=6) {
     console.log("Aluno aprovado")
