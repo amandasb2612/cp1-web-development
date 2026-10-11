@@ -23,10 +23,10 @@ let peso = Number(prompt("Informe seu peso em kg:"));
 
 let IMC = peso / (altura ** 2);
 
-if (IMC <= 18.5) {
+if (IMC < 18.5) {
     console.log("Abaixo do peso")
 
-} else if (IMC < 24.5) {
+} else if (IMC < 24.9) {
     console.log("Peso ideal")
 } else{
     console.log("Acima do peso")
@@ -64,8 +64,8 @@ let idade = Number(prompt("Digite sua idade:"));
 let cnh = prompt("Possui Carteira Nacional de Habilitação?");
 
 let permissao = idade >= 18 && cnh === "sim"
-    ? "Tem permissão para digirir"
-    : "Não tem permissão para digirir";
+    ? "Tem permissão para dirigir"
+    : "Não tem permissão para dirigir";
 
 console.log(permissao);
 
@@ -122,7 +122,7 @@ console.log("*************************************************")
 let senha = prompt("Digite sua senha atual: ")
 let novaSenha = prompt("Digite sua nova senha: ")
 
-if (senha == novaSenha) {
+if (senha === novaSenha) {
     console.log("A senha não pode ser igual a anterior.")
 }
 
