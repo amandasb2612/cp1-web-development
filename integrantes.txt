@@ -1,0 +1,14 @@
+FIAP - Engenharia de software - Turma 1ESPA
+Disciplina: Web Development 
+Professor: Wellington Cidade Silva 
+Checkpoint 1
+
+1 - Nome: Amanda Souzaa de Barros 
+    RM: 574423
+
+
+2 - Nome: Mariana do Nascimento 
+    RM: 574863
+
+Link do repositório do projeto: 
+https://github.com/amandasb2612/cp1-web-development/settings
